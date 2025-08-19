@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 require __DIR__.'/../vendor/autoload.php';
 
-use Jimbo2150\PhpCssTypedOm\Tokenizer\CSS3Tokenizer;
+use Jimbo2150\PhpCssTokenizer\Tokenizer\CSS3Tokenizer;
 
 $options = getopt('', ['seed::', 'iterations::', 'maxlen::']);
 $seed = isset($options['seed']) ? (int) $options['seed'] : (int) (microtime(true) * 1000) & 0x7FFFFFFF;

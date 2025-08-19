@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Jimbo2150\PhpCssTypedOm\Process;
+namespace Jimbo2150\PhpCssTokenizer\Process;
 
 use GuzzleHttp\Client;
-use Jimbo2150\PhpCssTypedOm\Exception\DontWriteException;
+use Jimbo2150\PhpCssTokenizer\Exception\DontWriteException;
 use Psr\Http\Message\ResponseInterface;
 
 final class CSSPropertiesProcessor

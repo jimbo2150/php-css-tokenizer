@@ -5,12 +5,12 @@
     "license": "Apache-2.0",
     "autoload": {
         "psr-4": {
-            "Jimbo2150\\PhpCssTypedOm\\": "src/"
+            "Jimbo2150\\PhpCssTokenizer\\": "src/"
         }
     },
 	"autoload-dev": {
 		"psr-4": {
-			"Jimbo2150\\PhpCssTypedOm\\Tests\\": "tests/"
+			"Jimbo2150\\PhpCssTokenizer\\Tests\\": "tests/"
         }
 	},
     "authors": [
@@ -33,7 +33,7 @@
 			"@processCssProperties"
 		],
 		"processCssProperties": [
-			"Jimbo2150\\PhpCssTypedOm\\Process\\CSSPropertiesProcessor::run"
+			"Jimbo2150\\PhpCssTokenizer\\Process\\CSSPropertiesProcessor::run"
 		]
 	},
     "require-dev": {

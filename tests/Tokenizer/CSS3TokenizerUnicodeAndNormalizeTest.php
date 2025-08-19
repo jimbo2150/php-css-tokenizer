@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tests\Tokenizer;
+namespace Jimbo2150\PhpCssTokenizer\Tests\Tokenizer;
 
-use Jimbo2150\PhpCssTypedOm\Tokenizer\CSS3Token;
-use Jimbo2150\PhpCssTypedOm\Tokenizer\CSS3Tokenizer;
-use Jimbo2150\PhpCssTypedOm\Tokenizer\CSS3TokenType;
+use Jimbo2150\PhpCssTokenizer\Tokenizer\CSS3Token;
+use Jimbo2150\PhpCssTokenizer\Tokenizer\CSS3Tokenizer;
+use Jimbo2150\PhpCssTokenizer\Tokenizer\CSS3TokenType;
 use PHPUnit\Framework\TestCase;
 
 class CSS3TokenizerUnicodeAndNormalizeTest extends TestCase

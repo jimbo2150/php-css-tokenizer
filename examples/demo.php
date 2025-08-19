@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 require_once __DIR__.'/../vendor/autoload.php';
 
-use Jimbo2150\PhpCssTypedOm\Tokenizer\CSS3Tokenizer;
-use Jimbo2150\PhpCssTypedOm\TypedOM\CSSStyleDeclaration;
-use Jimbo2150\PhpCssTypedOm\TypedOM\Values\CSSUnitValue;
+use Jimbo2150\PhpCssTokenizer\Tokenizer\CSS3Tokenizer;
+use Jimbo2150\PhpCssTokenizer\TypedOM\CSSStyleDeclaration;
+use Jimbo2150\PhpCssTokenizer\TypedOM\Values\CSSUnitValue;
 
 echo "=== CSS3 Tokenizer and Typed OM Demo ===\n\n";
 

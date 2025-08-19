@@ -51,8 +51,8 @@ Example listener:
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
-use Jimbo2150\PhpCssTypedOm\Tokenizer\CSS3Tokenizer;
-use Jimbo2150\PhpCssTypedOm\Tokenizer\CSS3TokenType;
+use Jimbo2150\PhpCssTokenizer\Tokenizer\CSS3Tokenizer;
+use Jimbo2150\PhpCssTokenizer\Tokenizer\CSS3TokenType;
 
 $t = new CSS3Tokenizer('@media screen and (min-width: 600px) { body {} }');
 

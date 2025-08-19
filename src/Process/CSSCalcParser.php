@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Jimbo2150\PhpCssTypedOm\Process;
+namespace Jimbo2150\PhpCssTokenizer\Process;
 
-use Jimbo2150\PhpCssTypedOm\TypedOM\Values\CSSMathDifference;
-use Jimbo2150\PhpCssTypedOm\TypedOM\Values\CSSMathDivision;
-use Jimbo2150\PhpCssTypedOm\TypedOM\Values\CSSMathProduct;
-use Jimbo2150\PhpCssTypedOm\TypedOM\Values\CSSMathSum;
-use Jimbo2150\PhpCssTypedOm\TypedOM\Values\CSSNumericValue;
-use Jimbo2150\PhpCssTypedOm\TypedOM\Values\CSSUnitValue;
+use Jimbo2150\PhpCssTokenizer\TypedOM\Values\CSSMathDifference;
+use Jimbo2150\PhpCssTokenizer\TypedOM\Values\CSSMathDivision;
+use Jimbo2150\PhpCssTokenizer\TypedOM\Values\CSSMathProduct;
+use Jimbo2150\PhpCssTokenizer\TypedOM\Values\CSSMathSum;
+use Jimbo2150\PhpCssTokenizer\TypedOM\Values\CSSNumericValue;
+use Jimbo2150\PhpCssTokenizer\TypedOM\Values\CSSUnitValue;
 
 class CSSCalcParser
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Jimbo2150\PhpCssTypedOm\Tokenizer;
+namespace Jimbo2150\PhpCssTokenizer\Tokenizer;
 
 /**
  * CSS3 Tokenizer that parses CSS3 syntax according to CSS Syntax Module Level 3

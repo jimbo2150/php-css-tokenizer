@@ -34,7 +34,7 @@ Event payload contract
 Example: validate properties using the included SQLite DB
 
 ```php
-use Jimbo2150\PhpCssTypedOm\Tokenizer\CSS3Tokenizer;
+use Jimbo2150\PhpCssTokenizer\Tokenizer\CSS3Tokenizer;
 
 $css = '.foo { color: unknown-prop: red; }';
 $db = __DIR__ . '/../dist/CSSProperties/CSSProperties.sqlite';

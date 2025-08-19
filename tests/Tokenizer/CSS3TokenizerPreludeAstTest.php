@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Tests\Tokenizer;
+namespace Jimbo2150\PhpCssTokenizer\Tests\Tokenizer;
 
-use Jimbo2150\PhpCssTypedOm\Tokenizer\CSS3Tokenizer;
+use Jimbo2150\PhpCssTokenizer\Tokenizer\CSS3Tokenizer;
 use PHPUnit\Framework\TestCase;
 
 final class CSS3TokenizerPreludeAstTest extends TestCase
