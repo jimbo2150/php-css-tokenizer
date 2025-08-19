@@ -1,0 +1,43 @@
+{
+    "name": "jimbo2150/php-css-tokenizer",
+    "description": "CSS parser written in PHP.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Jimbo2150\\PhpCssTypedOm\\": "src/"
+        }
+    },
+	"autoload-dev": {
+		"psr-4": {
+			"Jimbo2150\\PhpCssTypedOm\\Tests\\": "tests/"
+        }
+	},
+    "authors": [
+        {
+            "name": "Jim Robinson",
+            "email": "jimbo2150@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+		"php": ">=8.4",
+		"ext-intl": "*",
+        "guzzlehttp/guzzle": "^7.9"
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"@processCssProperties"
+		],
+		"post-update-cmd": [
+			"@processCssProperties"
+		],
+		"processCssProperties": [
+			"Jimbo2150\\PhpCssTypedOm\\Process\\CSSPropertiesProcessor::run"
+		]
+	},
+    "require-dev": {
+        "phpunit/phpunit": "^11|^12",
+        "friendsofphp/php-cs-fixer": "*"
+    }
+}
