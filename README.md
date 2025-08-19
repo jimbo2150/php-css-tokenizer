@@ -1,10 +1,7 @@
-# PHP Typed Object Model
-## A PHP implementation of the CSS Typed Object Model (OM).
+# PHP CSS Tokenizer
+## A CSS parser written in PHP.
 
 ## THIS IS A WORK IN PROGRESS (WIP)
-
-## Documentation
-Documentation coming soon.
 
 ## Resources
 
