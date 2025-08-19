@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Tokenizer;
+namespace Jimbo2150\PhpCssTokenizer\Tests\Tokenizer;
 
 use PHPUnit\Framework\TestCase;
 
