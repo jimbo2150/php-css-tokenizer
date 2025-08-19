@@ -3,11 +3,6 @@
 
 ## THIS IS A WORK IN PROGRESS (WIP)
 
-## Resources
-
-### Mozilla Developer Network (MDN)
-[Mozilla Developer Network's documentation of the CSS Typed Object Model API](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Typed_OM_API)
-
 ## CI and Tests
 
 A GitHub Actions workflow (`.github/workflows/phpunit.yml`) runs PHPUnit on push and pull requests using PHP 8.4. It installs dependencies and runs the test suite.
